@@ -1,5 +1,7 @@
 # Task B – Micro Scraper
 
+This is a scraper API that extracts a webpage's title, meta description, and H1 tags . It handles timeouts, invalid URLs, and network errors safely, with user agent override and retry support. The endpoint is ready to use via Postman or any API client
+
 ## Objective
 Build a lightweight scraper endpoint that extracts webpage information, including the page title, meta description, and the first H1 tag. The endpoint should handle common issues like timeouts, invalid URLs, and network errors gracefully.
 
