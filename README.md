@@ -4,7 +4,7 @@
 Build a lightweight scraper endpoint that extracts webpage information, including the page title, meta description, and the first H1 tag. The endpoint should handle common issues like timeouts, invalid URLs, and network errors gracefully.
 
 ---
-
+[Demo - Loom](https://www.loom.com/share/ae160c28ee2a41de898f5028d93f53be)
 ## Endpoint Details
 
 ### GET `/api/scrape?url=...`
