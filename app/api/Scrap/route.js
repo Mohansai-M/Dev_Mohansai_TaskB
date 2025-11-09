@@ -60,11 +60,9 @@ export async function GET(request) {
         document.querySelector('meta[property="og:description"]')?.content ||
         null;
 
-      const h1Tags = Array.from(document.querySelectorAll("h1")).map((el) =>
-        el.textContent.trim()
-      );
+      const h1 = document.querySelector("h1")?.textContent.trim() || null;
 
-      return { title, metaDescription, h1: h1Tags };
+      return { title, metaDescription, h1: h1 };
     });
 
     clearTimeout(timeout);
